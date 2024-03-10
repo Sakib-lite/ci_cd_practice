@@ -1,0 +1,10 @@
+name: CI
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greetings
+        run: echo "My same is sakib"
+      - name: Print my age
+        run: echo "my age is 26"
