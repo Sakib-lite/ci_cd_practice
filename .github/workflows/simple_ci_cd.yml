@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greetings
-        run: echo "My same is sakib"
+        run: echo "My name is sakib"
       - name: Print my age
         run: echo "my age is 26"
